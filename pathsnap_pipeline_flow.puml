@@ -1,0 +1,27 @@
+@startuml Pathsnap_Pipeline_Target
+title Recommended Pathsnap data pipeline (Kota Bandung)
+skinparam shadowing false
+skinparam defaultFontName Arial
+
+start
+:Overpass harvest\n(nwr + out center, Kota Bandung boundary);
+note right: friend's Phase 1, fixed to include ways/relations
+:Store untouched JSON\n**raw_scraped_items**;
+:Deduplicate\n(google_place_id, or name similarity + ST_DWithin 50 m);
+:Enrich with real ratings, review count,\nprice, opening hours\n(Google Places API / licensed data);
+note right: replaces the hardcoded mock metrics
+:Proxy filter\nrating >= 4.4 and reviews < 150\n(friend's Phase 4);
+:Gemini extraction (server-side)\nstructured JSON: summary, vibe,\nhidden_gem_score, confidence\n-> **ai_extractions**;
+if (confidence >= threshold?) then (yes)
+  :Auto-approve;
+else (no)
+  :Manual review queue\n(needs_review = true);
+endif
+:Promote into **places**\n+ assign district via ST_Covers;
+partition "Accommodations (not covered yet)" {
+  :Harvest tourism=hotel|guest_house|hostel|\napartment|chalet from OSM;
+  :Enrich price per night, rating,\nstar class, amenities;
+  :Promote into **accommodations**;
+}
+stop
+@enduml
