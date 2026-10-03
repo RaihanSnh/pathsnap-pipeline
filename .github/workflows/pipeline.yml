@@ -2,9 +2,10 @@ name: Pathsnap Pipeline
 
 on:
   workflow_dispatch:
+
   push:
     branches:
-      - main
+      - master
 
 jobs:
   run-pipeline:
@@ -25,4 +26,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run pipeline
-        run: python main.py
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ secrets.GEMINI_MODEL }}
+          OUTPUT_LANGUAGE: ${{ secrets.OUTPUT_LANGUAGE }}
+        run: python run_all.py
