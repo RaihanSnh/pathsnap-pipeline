@@ -1,0 +1,137 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\lstset{basicstyle=\ttfamily\small,backgroundcolor=\color{black!5},frame=single,breaklines=true,columns=fullflexible}
+\title{Pathsnap Data Pipeline -- Setup and Usage Guide}
+\author{Database task, Kota Bandung scope}
+\date{September 2026}
+\begin{document}
+\maketitle
+
+\section{What this pipeline does}
+The pipeline fills the Pathsnap PostgreSQL database with places and accommodations in Kota Bandung. It runs in small steps so you can check the database after each one.
+
+\begin{center}
+\begin{tabular}{@{}lll@{}}
+\toprule
+Step & Script & What it does \\
+\midrule
+0 & \texttt{init\_db.py} & Creates all tables and seeds Kota Bandung, its 30 districts, categories, amenities. \\
+1 & \texttt{s1\_harvest\_osm.py} & Downloads named places and accommodations inside Kota Bandung from OpenStreetMap and stores them untouched. \\
+2 & \texttt{s2\_promote\_osm.py} & Converts raw items into \texttt{places} / \texttt{accommodations}, removes duplicates. \\
+3 & \texttt{s3\_enrich\_google.py} & \emph{Optional, paid.} Adds real rating, review count and price from Google Places. \\
+4 & \texttt{s4\_score\_and\_ai.py} & \emph{Optional.} Finds hidden-gem candidates and asks Gemini to judge them. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section{One-time setup}
+\begin{enumerate}[leftmargin=*]
+\item Install PostgreSQL 15 or newer \emph{with PostGIS}. The easiest way is Docker:
+\begin{lstlisting}
+docker run -d --name pathsnap-db -p 5432:5432 \
+  -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=pathsnap \
+  postgis/postgis:16-3.4
+\end{lstlisting}
+\item Install Python 3.10+ and the libraries:
+\begin{lstlisting}
+cd pathsnap_pipeline
+python -m venv .venv
+# Windows: .venv\Scripts\activate      Linux/Mac: source .venv/bin/activate
+pip install -r requirements.txt
+\end{lstlisting}
+\item Copy \texttt{.env.example} to \texttt{.env}. For the first run you only need \texttt{DATABASE\_URL}; leave the two API keys empty.
+\end{enumerate}
+
+\section{First run (free, no API keys)}
+\begin{lstlisting}
+python init_db.py
+python s1_harvest_osm.py     # 1-3 minutes, needs internet
+python s2_promote_osm.py
+\end{lstlisting}
+Check the result in \texttt{psql} or DBeaver:
+\begin{lstlisting}
+SELECT count(*) FROM places;
+SELECT count(*) FROM accommodations;
+SELECT type, count(*) FROM accommodations GROUP BY type;
+\end{lstlisting}
+Every script can be run again safely. Records are matched by their OpenStreetMap id, so nothing is inserted twice.
+
+\section{Optional steps}
+\subsection{Real ratings and prices from Google (step 3, only if the team obtains a key)}
+OpenStreetMap almost never contains ratings or prices, so requirements 1 and 2 (rating, price) need another source. Step 3 uses the Google Places API. Put your key in \texttt{.env} as \texttt{GOOGLE\_PLACES\_API\_KEY}, then:
+\begin{lstlisting}
+python s3_enrich_google.py --limit 20
+\end{lstlisting}
+Start with a small \texttt{--limit} and check the billing page first, because rating fields belong to a paid tier. A Google result is accepted only if it lies within 150~m of the OpenStreetMap point.
+
+\textbf{Check with your team before storing Google data.} Google's terms restrict how long Places content may be cached (place IDs are the main exception). The script re-checks records older than 30 days, but please read the current terms and decide whether this source is acceptable for Pathsnap. Alternatives are your own user ratings later or a licensed dataset.
+
+\subsection{AI hidden-gem scoring (step 4)}
+Put a Gemini key in \texttt{.env} as \texttt{GEMINI\_API\_KEY}. The model name is set by \texttt{GEMINI\_MODEL}; model names change over time, so if you get a ``model not found'' error, pick a current name from Google's documentation.
+\begin{lstlisting}
+python s4_score_and_ai.py --limit 20
+\end{lstlisting}
+How it decides:
+\begin{itemize}[leftmargin=*]
+\item A place is a \emph{candidate} only if rating $\ge 4.4$ and $3 \le$ reviews $< 150$.
+\item Gemini sees only structured facts (name, category, rating, review count) and is told not to invent details.
+\item If confidence is at least 0.6 and Gemini agrees, \texttt{is\_hidden\_gem} becomes true. Lower confidence rows are marked \texttt{needs\_review} in \texttt{ai\_extractions} and stay \emph{not} a hidden gem until a human approves them.
+\item \texttt{hidden\_gem\_score} (0--1) comes from the rating/review-count formula, not from the AI.
+\end{itemize}
+Review queue:
+\begin{lstlisting}
+SELECT p.name, e.confidence, e.hidden_gem_reason
+FROM ai_extractions e JOIN places p ON p.id = e.promoted_place_id
+WHERE e.needs_review ORDER BY e.confidence DESC;
+\end{lstlisting}
+
+\section{Running everything}
+\begin{lstlisting}
+python run_all.py --skip-google --skip-ai      # free part only
+python run_all.py --limit 20                   # everything
+\end{lstlisting}
+
+\section{Distance queries (requirement: map point for distance)}
+\begin{lstlisting}
+-- Accommodations within 5 km of a place, nearest first
+SELECT a.name, a.type, ROUND(ST_Distance(a.location, p.location)) AS meters
+FROM places p
+JOIN accommodations a ON ST_DWithin(a.location, p.location, 5000)
+WHERE p.name = 'Curug Dago'
+ORDER BY meters;
+\end{lstlisting}
+
+\section{Choosing the rating and price source (Geoapify decision)}
+The team chose Geoapify instead of Google Places. The Geoapify key \emph{cannot} simply replace the Google key in \texttt{.env}: the request format and the response fields are different, so \texttt{s3\_enrich\_google.py} would need rewriting. More importantly, Geoapify's Places data comes from OpenStreetMap, and the place fields in its documentation (name, address, categories, coordinates, opening hours, phone, website, facilities) contain no user rating, review count or price. So Geoapify improves address and contact data, but it does not fill \texttt{rating\_avg} or \texttt{price}.
+
+Measured on the 840 OpenStreetMap items already harvested for Bandung: 24 carry a \texttt{fee} tag, none carry a \texttt{charge} (amount) tag, 35 have a phone number, 40 a website and 108 opening hours. Ratings and prices must therefore come from elsewhere. The pipeline now offers two free routes:
+
+\begin{enumerate}[leftmargin=*]
+\item \textbf{OpenStreetMap fee tag} (small gain): \texttt{python s2b\_apply\_osm\_fees.py} marks places tagged \texttt{fee=no} as free.
+\item \textbf{Team-curated CSV} (recommended for the most important places):
+\begin{lstlisting}
+python export_missing_data_csv.py      # creates places_to_fill.csv, accommodations_to_fill.csv
+# open the CSVs in Excel / Google Sheets, fill rating_avg, rating_count, prices
+# (use official sources such as the venue website; write the source in source_note)
+python import_filled_csv.py --table places --file places_to_fill.csv
+python import_filled_csv.py --table accommodations --file accommodations_to_fill.csv
+\end{lstlisting}
+Only non-empty cells are written, invalid rows are skipped with a message, and \texttt{price\_level} is derived automatically from the price (thresholds in \texttt{config.py}).
+\end{enumerate}
+Longer term, real ratings are best collected inside Pathsnap itself with a user reviews table.
+
+\section{Known limits}
+\begin{itemize}[leftmargin=*]
+\item Steps 1, 3 and 4 call live services. They were tested here with simulated responses only, so expect to fix small issues on the first real run (for example the OpenStreetMap area name in the query of step 1).
+\item \texttt{district\_id} is not filled yet. It needs the kecamatan boundary polygons, which is a separate follow-up step.
+\item OpenStreetMap coverage of hotels and villas in Bandung is incomplete. Expect fewer records than Google or booking sites show.
+\item OpenStreetMap data must be credited: ``\copyright{} OpenStreetMap contributors'' (ODbL license).
+\end{itemize}
+\end{document}

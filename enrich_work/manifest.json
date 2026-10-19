@@ -1,0 +1,155 @@
+{
+ "places B01": {
+  "venues": 100,
+  "parts": [
+   {
+    "file": "places_B01_p1.json",
+    "venues": 34
+   },
+   {
+    "file": "places_B01_p2.json",
+    "venues": 34
+   },
+   {
+    "file": "places_B01_p3.json",
+    "venues": 32
+   }
+  ]
+ },
+ "places B02": {
+  "venues": 100,
+  "parts": [
+   {
+    "file": "places_B02_p1.json",
+    "venues": 34
+   },
+   {
+    "file": "places_B02_p2.json",
+    "venues": 34
+   },
+   {
+    "file": "places_B02_p3.json",
+    "venues": 32
+   }
+  ]
+ },
+ "places B03": {
+  "venues": 100,
+  "parts": [
+   {
+    "file": "places_B03_p1.json",
+    "venues": 34
+   },
+   {
+    "file": "places_B03_p2.json",
+    "venues": 34
+   },
+   {
+    "file": "places_B03_p3.json",
+    "venues": 32
+   }
+  ]
+ },
+ "places B04": {
+  "venues": 100,
+  "parts": [
+   {
+    "file": "places_B04_p1.json",
+    "venues": 34
+   },
+   {
+    "file": "places_B04_p2.json",
+    "venues": 34
+   },
+   {
+    "file": "places_B04_p3.json",
+    "venues": 32
+   }
+  ]
+ },
+ "places B05": {
+  "venues": 36,
+  "parts": [
+   {
+    "file": "places_B05_p1.json",
+    "venues": 12
+   },
+   {
+    "file": "places_B05_p2.json",
+    "venues": 12
+   },
+   {
+    "file": "places_B05_p3.json",
+    "venues": 12
+   }
+  ]
+ },
+ "accommodations B01": {
+  "venues": 100,
+  "parts": [
+   {
+    "file": "accommodations_B01_p1.json",
+    "venues": 34
+   },
+   {
+    "file": "accommodations_B01_p2.json",
+    "venues": 34
+   },
+   {
+    "file": "accommodations_B01_p3.json",
+    "venues": 32
+   }
+  ]
+ },
+ "accommodations B02": {
+  "venues": 100,
+  "parts": [
+   {
+    "file": "accommodations_B02_p1.json",
+    "venues": 34
+   },
+   {
+    "file": "accommodations_B02_p2.json",
+    "venues": 34
+   },
+   {
+    "file": "accommodations_B02_p3.json",
+    "venues": 32
+   }
+  ]
+ },
+ "accommodations B03": {
+  "venues": 100,
+  "parts": [
+   {
+    "file": "accommodations_B03_p1.json",
+    "venues": 34
+   },
+   {
+    "file": "accommodations_B03_p2.json",
+    "venues": 34
+   },
+   {
+    "file": "accommodations_B03_p3.json",
+    "venues": 32
+   }
+  ]
+ },
+ "accommodations B04": {
+  "venues": 86,
+  "parts": [
+   {
+    "file": "accommodations_B04_p1.json",
+    "venues": 29
+   },
+   {
+    "file": "accommodations_B04_p2.json",
+    "venues": 29
+   },
+   {
+    "file": "accommodations_B04_p3.json",
+    "venues": 28
+   }
+  ]
+ }
+}

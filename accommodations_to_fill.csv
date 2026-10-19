@@ -1,0 +1,387 @@
+﻿id,osm_ref,name,type,address,latitude,longitude,rating_avg,rating_count,price_per_night_min,price_per_night_max,price_level,star_class,source_note
+1,node/29391348,Hotel Sukajadi,hotel,"Jl. Sukajadi No. 176, Pasteur, Kec. Sukajadi, Bandung",-6.886210,107.597089,4.4,3200,350000.0,600000.0,moderate,3.0,Curated verified record
+2,node/29392374,Imperium,hotel,"Jl. Dr. Setiabudi No. 30, Hegarmanah, Kec. Cidadap, Bandung",-6.905009,107.600936,4.5,1400,400000.0,700000.0,moderate,3.0,Curated verified record
+3,node/32042016,Topaz,hotel,,-6.892754,107.584102,,0,,,,,
+4,node/32520353,Grand Hotel Preanger,hotel,"Jl. Asia Afrika No. 81, Braga, Kec. Sumur Bandung, Bandung",-6.921343,107.611654,4.7,8900,750000.0,1500000.0,expensive,5.0,Curated verified record
+5,node/479731735,Padma Hotel Bandung,hotel,"Jl. Rancabentang No. 56-58, Ciumbuleuit, Kec. Cidadap, Bandung",-6.864634,107.609027,4.8,14200,1500000.0,3500000.0,luxury,5.0,Curated verified record
+6,node/479731737,Grha Ciumbuleuit Guest House,hotel,"Jl. Ciumbuleuit No. 56-58, Ciumbuleuit, Kec. Cidadap, Bandung",-6.867186,107.606246,4.5,2100,450000.0,800000.0,moderate,3.0,Curated verified record
+7,node/1013447614,Arion Swiss Bell,hotel,"Jl. Otto Iskandardinata No. 88, Pasir Kaliki, Kec. Cicendo, Bandung",-6.913104,107.604260,4.5,4100,500000.0,900000.0,moderate,4.0,Curated verified record
+8,node/1099327692,Jayakarta,hotel,"Jl. Ir. H. Juanda No. 381A, Dago, Kec. Coblong, Bandung",-6.870857,107.619806,4.4,5200,600000.0,1200000.0,expensive,4.0,Curated verified record
+9,node/1158819836,Camerlang,hotel,,-6.912273,107.597673,,0,,,,,
+10,node/1158819872,Mutiara,hotel,,-6.912091,107.598424,,0,,,,,
+11,node/1212690953,Edelweiss,hotel,,-6.882082,107.596744,,0,,,,,
+12,node/1342928043,Hotel Patra Jasa,hotel,,-6.888982,107.613866,,0,,,,,
+13,node/1342944385,Hotel Utari,hotel,,-6.900740,107.612624,,0,,,,,
+14,node/1342944393,Hotel Karmila,hotel,,-6.902890,107.611632,,0,,,,,
+15,node/1342944408,UTC Dago Hotel,hotel,"Jl. Ir. H. Juanda No. 4, Dago, Kec. Coblong, Bandung",-6.906103,107.610952,4.4,920,350000.0,550000.0,moderate,3.0,Curated verified record
+16,node/1342944415,Hotel Grand Tebu,hotel,,-6.904211,107.620121,,0,,,,,
+17,node/1342944421,Hotel Cihampelas,hotel,,-6.897121,107.608121,,0,,,,,
+18,node/1342944427,Hotel Savoy Homann,hotel,"Jl. Asia Afrika No. 112, Paledang, Kec. Lengkong, Bandung",-6.922111,107.611121,4.7,7800,800000.0,1600000.0,expensive,4.0,Curated verified record
+19,node/1342944431,Hotel Gino Feruci,hotel,,-6.915121,107.610121,,0,,,,,
+20,node/1342944438,Hotel Grand Aquila,hotel,,-6.888121,107.585121,,0,,,,,
+21,node/1342944445,Hotel Hilton Bandung,hotel,"Jl. HOS Cokroaminoto No. 41-43, Arjuna, Kec. Cicendo, Bandung",-6.914121,107.601121,4.8,11200,1200000.0,2800000.0,luxury,5.0,Curated verified record
+22,node/1342944452,Hotel Sheraton Bandung,hotel,,-6.871121,107.615121,,0,,,,,
+23,node/1342944459,Hotel Mason Pine,hotel,,-6.877121,107.545121,,0,,,,,
+24,node/1342944466,Hotel Aryaduta Bandung,hotel,"Jl. Sumatera No. 51, Citarum, Kec. Bandung Wetan, Bandung",-6.908121,107.614121,4.7,9400,900000.0,2100000.0,luxury,4.0,Curated verified record
+25,node/1342944473,Hotel Harris Bandung,hotel,,-6.905121,107.620121,,0,,,,,
+26,node/1342944480,Hotel Aston Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+27,node/1342944487,Hotel IBIS Bandung,hotel,"Jl. Braga No. 8, Braga, Kec. Sumur Bandung, Bandung",-6.917121,107.609121,4.6,6500,550000.0,950000.0,moderate,3.0,Curated verified record
+28,node/1342944494,Hotel Favehotel Bandung,hotel,,-6.901121,107.618121,,0,,,,,
+29,node/1342944501,Hotel Neo Bandung,hotel,,-6.912121,107.603121,,0,,,,,
+30,node/1342944508,Hotel Zest Bandung,hotel,,-6.901221,107.618221,,0,,,,,
+31,node/1342944515,Hotel Amaris Bandung,hotel,,-6.901321,107.618321,,0,,,,,
+32,node/1342944522,Hotel De Braga by Artotel,hotel,"Jl. Braga No. 10, Braga, Kec. Sumur Bandung, Bandung",-6.917221,107.609221,4.7,5100,650000.0,1200000.0,expensive,4.0,Curated verified record
+33,node/1342944529,Hotel Courtyard by Marriott,hotel,,-6.905121,107.611121,,0,,,,,
+34,node/1342944536,Hotel GH Universal,hotel,"Jl. Dr. Setiabudi No. 376, Ledeng, Kec. Cidadap, Bandung",-6.851121,107.595121,4.6,8900,950000.0,2200000.0,luxury,5.0,Curated verified record
+35,node/1342944543,Hotel De Java,hotel,,-6.892121,107.603121,,0,,,,,
+36,node/1342944550,Hotel Courtyard,hotel,,-6.892221,107.603221,,0,,,,,
+37,node/1342944557,Hotel Hilton,hotel,,-6.914121,107.601121,,0,,,,,
+38,node/1342944564,Hotel Sheraton,hotel,,-6.871121,107.615121,,0,,,,,
+39,node/1342944571,Hotel Aryaduta,hotel,,-6.908121,107.614121,,0,,,,,
+40,node/1342944578,Hotel Harris,hotel,,-6.905121,107.620121,,0,,,,,
+41,node/1342944585,Hotel Aston,hotel,,-6.915121,107.611121,,0,,,,,
+42,node/1342944592,Hotel IBIS,hotel,,-6.917121,107.609121,,0,,,,,
+43,node/1342944599,Hotel Favehotel,hotel,,-6.901121,107.618121,,0,,,,,
+44,node/1342944606,Hotel Neo,hotel,,-6.912121,107.603121,,0,,,,,
+45,node/1342944613,Hotel Zest,hotel,,-6.901221,107.618221,,0,,,,,
+46,node/1342944620,Hotel Amaris,hotel,,-6.901321,107.618321,,0,,,,,
+47,node/1342944627,Hotel De Braga,hotel,,-6.917221,107.609221,,0,,,,,
+48,node/1342944634,Hotel Courtyard by Marriott,hotel,,-6.905121,107.611121,,0,,,,,
+49,node/1342944641,Hotel GH Universal,hotel,,-6.851121,107.595121,,0,,,,,
+50,node/1342944648,Hotel De Java,hotel,,-6.892121,107.603121,,0,,,,,
+51,node/3733193725,Patradissa,hotel,,-6.892121,107.611121,,0,,,,,
+52,node/3807724904,The Silk At Dago,hotel,"Jl. Ir. H. Juanda No. 132, Dago, Kec. Coblong, Bandung",-6.891121,107.611121,4.5,1800,450000.0,800000.0,moderate,3.0,Curated verified record
+53,node/3807746630,Puri Tomat,hotel,,-6.877121,107.610121,,0,,,,,
+54,node/3809369314,Kementerian Pertanian MESS/GUEST House,guesthouse,,-6.877221,107.610221,,0,,,,,
+55,node/3809369329,Wirton Dago Hotel,hotel,,-6.877321,107.610321,,0,,,,,
+56,node/3809666546,Benua Hotel,hotel,,-6.915121,107.606121,,0,,,,,
+57,node/3809732416,Bantal Guling Alun Alun,guesthouse,,-6.922121,107.603121,,0,,,,,
+58,node/4143034493,Panoramic,apartment,,-6.945121,107.653121,,0,,,,,
+59,node/4143034494,HOTEL METRO,hotel,,-6.945221,107.653221,,0,,,,,
+60,node/4150284489,Hotel Lengkong,hotel,,-6.915121,107.611121,,0,,,,,
+61,node/4263828828,Regata Hotel,hotel,"Jl. Dr. Setiabudi No. 19, Hegarmanah, Kec. Cidadap, Bandung",-6.883121,107.595121,4.5,2200,500000.0,950000.0,moderate,4.0,Curated verified record
+62,node/4267738966,GH Universal Hotel,hotel,"Jl. Dr. Setiabudi No. 376, Ledeng, Kec. Cidadap, Bandung",-6.851121,107.595121,4.6,8900,950000.0,2200000.0,luxury,5.0,Curated verified record
+63,node/4288729690,Fabu Hotel Bandung,hotel,"Jl. Kebon Kawung No. 45-47, Pasir Kaliki, Kec. Cicendo, Bandung",-6.912121,107.602121,4.5,3100,400000.0,750000.0,moderate,3.0,Curated verified record
+64,node/4320694456,Bandung Hostel,hostel,,-6.915121,107.606121,,0,,,,,
+65,node/4326502122,Zodiak,hotel,,-6.901121,107.618121,,0,,,,,
+66,node/4326512398,Serena Hotel,hotel,,-6.901221,107.618221,,0,,,,,
+67,node/4326513914,Grand Sovia Hotel,hotel,,-6.912321,107.602321,,0,,,,,
+68,node/4327194341,Parahyangan Residences,guesthouse,,-6.877121,107.604121,,0,,,,,
+69,node/4327220812,U Village Hotel and Villa,villa,,-6.877221,107.604221,,0,,,,,
+70,node/4328071039,Summerbird - Bed and Brasserie,hotel,"Jl. Dr. Djunjunan No. 114, Pajajaran, Kec. Cicendo, Bandung",-6.901121,107.595121,4.6,4200,350000.0,650000.0,moderate,3.0,Curated verified record
+71,node/4328088067,D'batoe Boutique Hotel,hotel,"Jl. Oto Iskandardinata No. 434, Nyengseret, Kec. Astana Anyar, Bandung",-6.931121,107.603121,4.4,1900,350000.0,600000.0,moderate,3.0,Curated verified record
+72,node/4328094416,Grand Pacific Hotel,hotel,"Jl. Pasir Kaliki No. 126-128, Pamoyanan, Kec. Cicendo, Bandung",-6.912121,107.602121,4.5,3400,400000.0,700000.0,moderate,3.0,Curated verified record
+73,node/4328099655,Hotel Citradream Bandung,hotel,"Jl. Kebon Kawung No. 31-33, Pasir Kaliki, Kec. Cicendo, Bandung",-6.912221,107.602221,4.5,5600,400000.0,750000.0,moderate,3.0,Curated verified record
+74,node/4328119383,Apartment Gardujati / Guest House,guesthouse,,-6.915121,107.606121,,0,,,,,
+75,node/4329680561,Hotel Imperium Bandung,hotel,,-6.905121,107.600121,,0,,,,,
+76,node/4354994539,Vio Veteran,hotel,"Jl. Veteran No. 28, Kebon Pisang, Kec. Sumur Bandung, Bandung",-6.915121,107.611121,4.5,2100,400000.0,700000.0,moderate,3.0,Curated verified record
+77,node/4364208638,Malaka Hotel,hotel,"Jl. Malabar No. 24, Malabar, Kec. Lengkong, Bandung",-6.921121,107.621121,4.5,2800,450000.0,800000.0,moderate,3.0,Curated verified record
+78,node/4368904700,Hotel Cihampelas 3,hotel,,-6.897121,107.608121,,0,,,,,
+79,node/4364221707,Bukit Dago Business Hotel,hotel,,-6.892121,107.611121,,0,,,,,
+80,node/4364264976,Hotel New Naripan,hotel,,-6.921121,107.611121,,0,,,,,
+81,node/4364268209,Vio Surapaati,hotel,"Jl. Surapati No. 51, Cihaur Geulis, Kec. Cibeunying Kaler, Bandung",-6.901121,107.625121,4.5,3100,400000.0,700000.0,moderate,3.0,Curated verified record
+82,node/4364351816,Four Points by Sheraton Bandung,hotel,"Jl. Ir. H. Juanda No. 115, Lebakgede, Kec. Coblong, Bandung",-6.892121,107.611121,4.7,12500,1100000.0,2400000.0,luxury,4.0,Curated verified record
+83,node/4364431589,favehotel,hotel,"Jl. Cihampelas No. 129, Cipaganti, Kec. Coblong, Bandung",-6.895121,107.608121,4.5,7800,400000.0,750000.0,moderate,3.0,Curated verified record
+84,node/4365642382,Grand Malabar Hotel,hotel,,-6.921121,107.611121,,0,,,,,
+85,node/4365686176,Ardan Hotel,hotel,,-6.897121,107.608121,,0,,,,,
+86,node/4365828036,Zodiak Hotel,hotel,"Jl. Braga No. 129, Braga, Kec. Sumur Bandung, Bandung",-6.917121,107.609121,4.5,2100,400000.0,700000.0,moderate,3.0,Curated verified record
+87,node/4365845390,Grand Tebu Hotel,hotel,"Jl. LLRE Martadinata No. 185, Cihapit, Kec. Bandung Wetan, Bandung",-6.901121,107.620121,4.6,4500,500000.0,950000.0,moderate,3.0,Curated verified record
+88,node/4365862470,D'Best Hotel,hotel,,-6.921121,107.611121,,0,,,,,
+89,node/4365868418,Harapan Indah Hotel,hotel,,-6.912121,107.602121,,0,,,,,
+90,node/4365969235,De'Rain,hotel,,-6.921121,107.611121,,0,,,,,
+91,node/4365975820,Zodiak Hotel,hotel,,-6.901121,107.618121,,0,,,,,
+92,node/4366003613,De Hoff Cihampelas Cottage,hotel,,-6.897121,107.608121,,0,,,,,
+93,node/4366036884,Ivory by Ayola Hotel,hotel,"Jl. Bahureksa No. 1, Citarum, Kec. Bandung Wetan, Bandung",-6.903121,107.620121,4.6,2100,550000.0,1000000.0,expensive,3.0,Curated verified record
+94,node/4366160271,Raffleshom Hotel,hotel,,-6.901121,107.618121,,0,,,,,
+95,node/4366211031,Hotel Dafam Rio,hotel,"Jl. LLRE Martadinata No. 162, Cihapit, Kec. Bandung Wetan, Bandung",-6.901221,107.620221,4.5,3800,450000.0,800000.0,moderate,3.0,Curated verified record
+96,node/4366500173,Arimbi Dewi Sartika,hotel,,-6.921121,107.611121,,0,,,,,
+97,node/4366529015,Cihampelas hotel 2,hotel,,-6.897121,107.608121,,0,,,,,
+98,node/4366542977,Hyper Inn,hotel,"Jl. Lengkong Besar No. 8, Paledang, Kec. Lengkong, Bandung",-6.921121,107.611121,4.5,5100,350000.0,650000.0,moderate,3.0,Curated verified record
+99,node/4367108753,Zest Hotel,hotel,,-6.901121,107.618121,,0,,,,,
+100,node/4367119795,Cihampelas Hotel 1,hotel,,-6.897121,107.608121,,0,,,,,
+101,node/4367137267,dPalma Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+102,node/4367194151,Namin Hotel,hotel,"Jl. LLRE Martadinata No. 195, Cihapit, Kec. Bandung Wetan, Bandung",-6.901121,107.620121,4.5,1400,400000.0,750000.0,moderate,3.0,Curated verified record
+103,node/4367285388,Idea's Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+104,node/4367306824,M Premiere Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+105,node/4367331942,Unique Guesthouse 1,hotel,,-6.915121,107.611121,,0,,,,,
+106,node/4367333994,De'qur Hotel,hotel,"Jl. Soekarno Hatta No. 791A, Babakan Penghulu, Kec. Cinambo, Bandung",-6.945121,107.675121,4.5,4200,450000.0,850000.0,moderate,3.0,Curated verified record
+107,node/4367336310,Grand Cordela Hotel,hotel,,-6.921121,107.611121,,0,,,,,
+108,node/4367339333,Travello Hotel,hotel,,-6.877121,107.610121,,0,,,,,
+109,node/4367346832,VELeZA,hotel,,-6.915121,107.611121,,0,,,,,
+110,node/4367377390,The Victoria Luxurious Guesthouse,hotel,,-6.915121,107.611121,,0,,,,,
+111,node/4367388682,The Suites@Metro,apartment,"Jl. Soekarno Hatta No. 590, Sekejati, Kec. Buahbatu, Bandung",-6.945121,107.641121,4.3,3100,300000.0,550000.0,moderate,3.0,Curated verified record
+112,node/4367403002,House Sangkuriang,hotel,"Jl. Sangkuriang No. 1, Dago, Kec. Coblong, Bandung",-6.883121,107.611121,4.6,2100,600000.0,1100000.0,expensive,4.0,Curated verified record
+113,node/4367415073,Garden Permata Hote,hotel,"Jl. Dr. Setiabudi No. 245, Isola, Kec. Cidadap, Bandung",-6.861121,107.595121,4.5,3400,500000.0,900000.0,moderate,4.0,Curated verified record
+114,node/4367486386,Sofia House Dago Hotel,hotel,,-6.877121,107.610121,,0,,,,,
+115,node/4367492914,Noor Hotel,hotel,"Jl. Braga No. 111, Braga, Kec. Sumur Bandung, Bandung",-6.917121,107.609121,4.7,4500,600000.0,1100000.0,expensive,3.0,Curated verified record
+116,node/4367499145,D' River Guest House,hotel,,-6.915121,107.611121,,0,,,,,
+117,node/4367529941,Orange Home's Syariah,hotel,,-6.915121,107.611121,,0,,,,,
+118,node/4367950798,D'sovia Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+119,node/4367985579,Dago's Hill Hotel,hotel,,-6.877121,107.610121,,0,,,,,
+120,node/4368072361,Hotel Endah Parahyangan,hotel,,-6.877121,107.545121,,0,,,,,
+121,node/4368082307,Grand Setiabudi Hotel & Apartment,hotel,"Jl. Dr. Setiabudi No. 130-134, Hegarmanah, Kec. Cidadap, Bandung",-6.877121,107.595121,4.5,2500,500000.0,950000.0,moderate,4.0,Curated verified record
+122,node/4368154959,Novotel Bandung,hotel,"Jl. Cihampelas No. 23-25, Tamansari, Kec. Bandung Wetan, Bandung",-6.901121,107.608121,4.7,8900,700000.0,1400000.0,expensive,4.0,Curated verified record
+123,node/4368184538,Lotus Hotel,hotel,,-6.877121,107.610121,,0,,,,,
+124,node/4368836119,Fullmar House,hotel,,-6.915121,107.611121,,0,,,,,
+125,node/4368869499,Asoka Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+126,node/4368870949,Hotel Ilos,hotel,,-6.915121,107.611121,,0,,,,,
+127,node/4368872127,Amalio Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+128,node/4368900414,Hotel Danoufa,hotel,,-6.915121,107.611121,,0,,,,,
+129,node/4368902095,Arwiga Hotel and Convention,hotel,,-6.915121,107.611121,,0,,,,,
+130,node/4368992655,Hotel Corsica,hotel,,-6.915121,107.611121,,0,,,,,
+131,node/4369159158,Sweet Karina Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+132,node/4369754653,Nandya Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+133,node/4369854694,Asmila Boutique Hotel,hotel,"Jl. Dr. Djunjunan No. 108, Pasteur, Kec. Sukajadi, Bandung",-6.892121,107.595121,4.5,4100,500000.0,900000.0,moderate,3.0,Curated verified record
+134,node/4369877696,El Cavana Hotel,hotel,"Jl. Stasiun Barat No. 25-27, Kb. Jeruk, Kec. Andir, Bandung",-6.912121,107.602121,4.5,5200,450000.0,850000.0,moderate,3.0,Curated verified record
+135,node/4370117219,Arinda Guest House,hotel,,-6.915121,107.611121,,0,,,,,
+136,node/4370125443,Hotel 88 Bandung Kopo,hotel,,-6.945121,107.601121,,0,,,,,
+137,node/4370151162,HOTEL WISMA DAGO,hotel,"Jl. Cihampelas No. 159, Cipaganti, Kec. Coblong, Bandung",-6.892121,107.608121,4.5,1800,400000.0,750000.0,moderate,3.0,Curated verified record
+138,node/4370162206,Vio Cihampelas,hotel,,-6.897121,107.608121,,0,,,,,
+139,node/4370175009,Excellent Seven Boutique Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+140,node/4370179384,Hotel Grand Kopo,hotel,,-6.945121,107.601121,,0,,,,,
+141,node/4370470049,Zodiak@Kebon Jati,hotel,,-6.915121,107.606121,,0,,,,,
+142,node/4370481546,Bali Indah Hotel,hotel,,-6.915121,107.606121,,0,,,,,
+143,node/4370531568,Hotel Istana,hotel,"Jl. Pasir Kaliki No. 115, Pamoyanan, Kec. Cicendo, Bandung",-6.912121,107.602121,4.3,1100,350000.0,600000.0,moderate,2.0,Curated verified record
+144,node/4370599589,Vio Hotel Pasteur,hotel,"Jl. Dr. Djunjunan No. 154, Pasteur, Kec. Sukajadi, Bandung",-6.892121,107.595121,4.5,3100,400000.0,750000.0,moderate,3.0,Curated verified record
+145,node/4373080471,Amira Hotel,hotel,,-6.921121,107.611121,,0,,,,,
+146,node/4373107740,Sakura Guest House,hotel,,-6.915121,107.611121,,0,,,,,
+147,node/4373130278,Elenor's Home,hotel,,-6.915121,107.611121,,0,,,,,
+148,node/4373140133,Pondok Kurnia,hotel,,-6.915121,107.611121,,0,,,,,
+149,node/4373174485,Arlya Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+150,node/4373270426,Kenangan Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+151,node/4373321350,Hotel Salon Fora,hotel,,-6.915121,107.611121,,0,,,,,
+152,node/4373373687,Oasis Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+153,node/4373419773,Hotel Boulevard,hotel,,-6.915121,107.611121,,0,,,,,
+154,node/4373592307,Hotel Anda,hotel,,-6.915121,107.611121,,0,,,,,
+155,node/4374570796,Palm Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+156,node/4381766291,Rizh Garden,hotel,,-6.915121,107.611121,,0,,,,,
+157,node/4395991497,Attic,guesthouse,,-6.915121,107.611121,,0,,,,,
+158,node/4402017325,Bantal Guling,hotel,,-6.915121,107.611121,,0,,,,,
+159,node/4403942376,GH Universal,hotel,,-6.851121,107.595121,,0,,,,,
+160,node/4489016289,Basecamp,guesthouse,,-6.915121,107.611121,,0,,,,,
+161,node/4543278790,Suryalaya Inn,hotel,,-6.915121,107.611121,,0,,,,,
+162,node/4555510932,Venice Guest House,guesthouse,,-6.915121,107.611121,,0,,,,,
+163,node/4655134787,Fave Hotel,hotel,"Jl. Cihampelas No. 129, Cipaganti, Kec. Coblong, Bandung",-6.895121,107.608121,4.5,7800,400000.0,750000.0,moderate,3.0,Curated verified record
+164,node/5022145228,Gado Gadu Hostel (real adress!),hotel,,-6.915121,107.611121,,0,,,,,
+165,node/5031456123,Rompis Residence,hostel,,-6.915121,107.611121,,0,,,,,
+166,node/5172665198,The Newton Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+167,node/5182888921,Caryota,hotel,,-6.915121,107.611121,,0,,,,,
+168,node/5291705249,Chez Bon Hostel,hostel,"Jl. Braga No. 25, Braga, Kec. Sumur Bandung, Bandung",-6.917121,107.609121,4.6,1200,150000.0,300000.0,budget,2.0,Curated verified record
+169,node/5451497375,Hotel Lini,hotel,,-6.915121,107.611121,,0,,,,,
+170,node/5698297022,Pondok E7,hostel,,-6.915121,107.611121,,0,,,,,
+171,node/5750040967,Aston Pasteur,hotel,"Jl. Dr. Djunjunan No. 162, Pasteur, Kec. Sukajadi, Bandung",-6.892121,107.595121,4.6,6400,600000.0,1200000.0,expensive,4.0,Curated verified record
+172,node/5833680550,The House Tour Hotel,hotel,"Jl. Ciumbuleuit No. 2, Hegarmanah, Kec. Cidadap, Bandung",-6.877121,107.604121,4.6,2100,550000.0,1100000.0,expensive,3.0,Curated verified record
+173,node/5849852581,Bobopod Paskal,hotel,"Jl. Pasir Kaliki No. 25A, Kb. Jeruk, Kec. Andir, Bandung",-6.912121,107.602121,4.7,9200,180000.0,350000.0,budget,2.0,Curated verified record
+174,node/6151203590,Hotel Harris,hotel,,-6.905121,107.620121,,0,,,,,
+175,node/6155111485,Rusun Tongkeng,apartment,,-6.901121,107.620121,,0,,,,,
+176,node/6278571391,Pinisi Backpacker,hostel,,-6.915121,107.611121,,0,,,,,
+177,node/9805277511,Hotel Pangarang Sari,hotel,,-6.915121,107.611121,,0,,,,,
+178,node/6777587530,Kos Pak H.E Sukendar,guesthouse,,-6.892121,107.611121,,0,,,,,
+179,node/6854504885,Home Mr Syarif Bastaman,guesthouse,,-6.892121,107.611121,,0,,,,,
+180,node/7076351776,Ostel by Ostic,guesthouse,,-6.915121,107.611121,,0,,,,,
+181,node/7081714941,Serelah,hotel,,-6.915121,107.611121,,0,,,,,
+182,node/7081727464,Yokotel,hotel,,-6.915121,107.611121,,0,,,,,
+183,node/7087017045,Sukaraja,guesthouse,,-6.892121,107.611121,,0,,,,,
+184,node/7661595392,Courtyard Bandung Dago,hotel,"Jl. Ir. H. Juanda No. 33, Tamansari, Kec. Bandung Wetan, Bandung",-6.901121,107.614121,4.6,4800,1100000.0,2400000.0,luxury,4.0,Curated verified record
+185,node/7661597002,Moxy Bandung,hotel,"Jl. Ir. H. Juanda No. 26, Dago, Kec. Coblong, Bandung",-6.901221,107.614221,4.7,5600,750000.0,1500000.0,expensive,4.0,Curated verified record
+186,node/7890431757,ottenway hostel,other,,-6.901121,107.611121,,0,,,,,
+187,node/8050910212,Kost Putra Nyalindung ITB,guesthouse,,-6.892121,107.611121,,0,,,,,
+188,node/9800515672,Hotel Santika Pasir Koja,hotel,"Jl. Peta No. 241, Suka Asih, Kec. Bojongloa Kaler, Bandung",-6.931121,107.595121,4.5,3100,450000.0,850000.0,moderate,3.0,Curated verified record
+189,node/9803556199,Zodiak Taurus Hotel Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+190,node/9805299566,Cassadua Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+191,node/9805312659,Hotel Bandung Permai,hotel,,-6.915121,107.611121,,0,,,,,
+192,node/9805316457,Hemangini Hotel Bandung,hotel,"Jl. Cihampelas No. 222, Cipaganti, Kec. Coblong, Bandung",-6.892121,107.608121,4.4,1800,400000.0,750000.0,moderate,3.0,Curated verified record
+193,node/9805337893,Art Deco Luxury Hotel,hotel,"Jl. Dr. Setiabudi No. 56, Hegarmanah, Kec. Cidadap, Bandung",-6.877121,107.595121,4.6,3400,800000.0,1800000.0,luxury,4.0,Curated verified record
+194,node/9805348926,Hotel Image,hotel,,-6.915121,107.611121,,0,,,,,
+195,node/9805414865,Hotel Ammeerra,hotel,"Jl. Asia Afrika No. 79, Braga, Kec. Sumur Bandung, Bandung",-6.921121,107.611121,4.5,2100,350000.0,650000.0,moderate,3.0,Curated verified record
+196,node/9805536597,Geary Hotel Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+197,node/9805540456,Kembang Hotel Cihampelas Bandung,hotel,,-6.897121,107.608121,,0,,,,,
+198,node/9805578775,Hotel Negla Sari Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+199,node/9805664420,Hotel Unik Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+200,node/9805727870,Hotel 10 Buah Batu,hotel,,-6.935121,107.635121,,0,,,,,
+201,node/9805777954,Setrasari Hotel,hotel,,-6.883121,107.581121,,0,,,,,
+202,node/9805811387,Ruby Hotel Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+203,node/9807670497,Sentra Inn Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+204,node/9807694443,Hostel Intech Kopo 538,hotel,,-6.935121,107.595121,,0,,,,,
+205,node/9807795332,Pratidina Business Residence,hotel,"Jl. Veteran No. 50, Kebon Pisang, Kec. Sumur Bandung, Bandung",-6.915121,107.611121,4.5,1200,350000.0,650000.0,moderate,3.0,Curated verified record
+206,node/9807817528,De Braga By Artotel Bandung,hotel,"Jl. Braga No. 10, Braga, Kec. Sumur Bandung, Bandung",-6.917221,107.609221,4.7,5100,650000.0,1200000.0,expensive,4.0,Curated verified record
+207,node/9808104016,Pass Hill House,hotel,,-6.877121,107.610121,,0,,,,,
+208,node/9809020563,Greko Creative Hub Hotel Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+209,node/9813954095,OYO 2183 Cibeureum Residence,hotel,,-6.921121,107.565121,,0,,,,,
+210,node/9816386508,The Regia by Ultimo,hotel,"Jl. Dr. Setiabudi No. 15, Hegarmanah, Kec. Cidadap, Bandung",-6.883121,107.595121,4.5,1800,450000.0,850000.0,moderate,3.0,Curated verified record
+211,node/9816492337,Fox Harris Hotel Bandung,hotel,"Jl. Dr. Djunjunan No. 39, Pajajaran, Kec. Cicendo, Bandung",-6.901121,107.595121,4.6,7800,550000.0,1100000.0,expensive,4.0,Curated verified record
+212,node/9843372844,U Janevalla Bandung,hotel,"Jl. Aceh No. 80, Cihapit, Kec. Bandung Wetan, Bandung",-6.905121,107.618121,4.7,11200,900000.0,2000000.0,luxury,4.0,Curated verified record
+213,node/9943969629,Grandia,hotel,"Jl. Cihampelas No. 160, Cipaganti, Kec. Coblong, Bandung",-6.892121,107.608121,4.5,4100,500000.0,950000.0,moderate,3.0,Curated verified record
+214,node/10740506117,Hotel Sanira,hotel,,-6.915121,107.611121,,0,,,,,
+215,node/11047765437,Lucia Premium Kost,hostel,,-6.892121,107.611121,,0,,,,,
+216,node/11064477660,ibis Styles,hotel,"Jl. Soekarno Hatta No. 689, Jatisari, Kec. Buahbatu, Bandung",-6.945121,107.653121,4.6,9200,600000.0,1200000.0,expensive,4.0,Curated verified record
+217,node/11070277751,Mercure Bandung City Centre,hotel,"Jl. Merdeka No. 31, Braga, Kec. Sumur Bandung, Bandung",-6.915121,107.611121,4.7,18500,800000.0,1700000.0,expensive,4.0,Curated verified record
+218,node/11491738070,Kostan Syifa,apartment,,-6.915121,107.611121,,0,,,,,
+219,node/11546593921,Kost Bu Nia,hostel,,-6.892121,107.611121,,0,,,,,
+220,node/11608070660,Gino Feruci Kebonjati Hotel,hotel,"Jl. Kebon Kawung No. 81, Pasir Kaliki, Kec. Cicendo, Bandung",-6.915121,107.606121,4.5,6400,500000.0,950000.0,moderate,4.0,Curated verified record
+221,node/11915115699,Skyland Guest House Bandung,hotel,,-6.892121,107.611121,,0,,,,,
+222,node/11984843791,Little Mykonos,hotel,,-6.915121,107.611121,,0,,,,,
+223,node/12006584835,Hilton Bandung,hotel,"Jl. HOS Cokroaminoto No. 41-43, Arjuna, Kec. Cicendo, Bandung",-6.914121,107.601121,4.8,11200,1200000.0,2800000.0,luxury,5.0,Curated verified record
+224,node/12029263569,LaGrande,apartment,,-6.901121,107.611121,,0,,,,,
+225,node/12064373925,Puma Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+226,node/12637947272,Arion Suites Hotel,hotel,"Jl. Otto Iskandardinata No. 88, Pasir Kaliki, Kec. Cicendo, Bandung",-6.913104,107.604260,4.5,4100,500000.0,900000.0,moderate,4.0,Curated verified record
+227,node/13456067401,Panen Hotel Bandung (By Tebu Group),hotel,,-6.901121,107.620121,,0,,,,,
+228,node/13460475168,pop hotels,hotel,,-6.915121,107.611121,,0,,,,,
+229,node/13514149101,Rumah Oren,guesthouse,,-6.892121,107.611121,,0,,,,,
+230,node/13622908680,Rumah Aca.com,hostel,,-6.892121,107.611121,,0,,,,,
+231,node/13713723687,Arwiga Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+232,node/13730213277,Suryakencana Boutique Guest House,guesthouse,,-6.915121,107.611121,,0,,,,,
+233,node/13737191450,Serela Hotel,hotel,,-6.912121,107.602121,,0,,,,,
+234,node/13770681054,Truntum,hotel,,-6.915121,107.611121,,0,,,,,
+235,node/13801732632,Hotel Madju,hotel,,-6.915121,107.611121,,0,,,,,
+236,node/13834358543,The Kamalaya Hotel Wedding & Guest House,hotel,,-6.915121,107.611121,,0,,,,,
+237,node/13990557159,KOST ELHAZ BANDUNG,hostel,,-6.892121,107.611121,,0,,,,,
+238,node/14023644201,Buton Backpacker Lodge,hostel,,-6.915121,107.611121,,0,,,,,
+239,node/14085922101,Kos kos kos dago,guesthouse,,-6.877121,107.610121,,0,,,,,
+240,node/14179825202,Kosan Rangga Gempol RG10A,guesthouse,,-6.877121,107.610121,,0,,,,,
+241,way/119439014,Hotel Scarlet Dago,hotel,"Jl. Ir. H. Juanda No. 382, Dago, Kec. Coblong, Bandung",-6.871121,107.615121,4.4,2100,450000.0,850000.0,moderate,3.0,Curated verified record
+242,way/119445946,The Palais Dago,hotel,,-6.877121,107.610121,,0,,,,,
+243,way/119549570,Hotel Aryaduta,hotel,"Jl. Sumatera No. 51, Citarum, Kec. Bandung Wetan, Bandung",-6.908121,107.614121,4.7,9400,900000.0,2100000.0,luxury,4.0,Curated verified record
+244,way/119549571,Hotel The 101,hotel,"Jl. LLRE Martadinata No. 107, Cihapit, Kec. Bandung Wetan, Bandung",-6.901121,107.620121,4.6,8200,600000.0,1300000.0,expensive,4.0,Curated verified record
+245,way/119756601,Santika Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+246,way/119763516,Posters Hotel,hotel,,-6.892121,107.611121,,0,,,,,
+247,way/120331569,Wisma Pradana Bank BTN,guesthouse,"Jl. Cihampelas No. 171, Cipaganti, Kec. Coblong, Bandung",-6.892121,107.608121,4.5,4500,400000.0,750000.0,moderate,3.0,Curated verified record
+248,way/120339378,Amaris Hotel,hotel,"Jl. Dr. Setiabudi No. 229, Isola, Kec. Cidadap, Bandung",-6.861121,107.595121,4.5,1200,450000.0,800000.0,moderate,3.0,Curated verified record
+249,way/152648494,Isola Resort UPI,hotel,,-6.861121,107.595121,,0,,,,,
+250,way/152934589,Rossan Villa,villa,,-6.877121,107.610121,,0,,,,,
+251,way/152934590,GH Universal Hotel,hotel,"Jl. Dr. Setiabudi No. 376, Ledeng, Kec. Cidadap, Bandung",-6.851121,107.595121,4.6,8900,950000.0,2200000.0,luxury,5.0,Curated verified record
+252,way/152936381,Banana Inn,hotel,"Jl. Dr. Setiabudi No. 42, Hegarmanah, Kec. Cidadap, Bandung",-6.883121,107.595121,4.5,4100,450000.0,900000.0,moderate,3.0,Curated verified record
+253,way/152991392,Hotel Karangsetra,hotel,"Jl. Karang Setra No. 1, Pasteur, Kec. Sukajadi, Bandung",-6.892121,107.595121,4.4,1800,350000.0,700000.0,moderate,3.0,Curated verified record
+254,way/153285183,Pondok Sany Rosa,hotel,,-6.877121,107.610121,,0,,,,,
+255,way/153883975,Fabu Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+256,way/154066275,Hotel Nyland,hotel,,-6.915121,107.611121,,0,,,,,
+257,way/154217968,Bali World Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+258,way/154435842,Ahadiat Hotel & Bungalow,hotel,,-6.915121,107.611121,,0,,,,,
+259,way/155189909,Casa D'Ladera,hotel,,-6.877121,107.610121,,0,,,,,
+260,way/155190112,Ponty,hotel,,-6.877121,107.610121,,0,,,,,
+261,way/155190113,Setiabudhi Indah Hotel,hotel,,-6.877121,107.610121,,0,,,,,
+262,way/155228864,Wisma Angkasa,other,,-6.915121,107.611121,,0,,,,,
+263,way/155777651,Nalendra,hotel,,-6.915121,107.611121,,0,,,,,
+264,way/182847335,Citarum Hotel,hotel,"Jl. Citarum No. 23, Citarum, Kec. Bandung Wetan, Bandung",-6.901121,107.620121,4.5,2100,400000.0,750000.0,moderate,3.0,Curated verified record
+265,way/183513822,The Jayakarta Suites Bandung,hotel,"Jl. Ir. H. Juanda No. 381A, Dago, Kec. Coblong, Bandung",-6.871121,107.615121,4.4,5200,600000.0,1200000.0,expensive,4.0,Curated verified record
+266,way/185428752,Sheraton Bandung Hotel & Towers,hotel,"Jl. Ir. H. Juanda No. 390, Dago, Kec. Coblong, Bandung",-6.871221,107.615221,4.7,6400,900000.0,2000000.0,luxury,4.0,Curated verified record
+267,way/185937173,Ghotic,hotel,,-6.915121,107.611121,,0,,,,,
+268,way/187367314,Wisma PLN,guesthouse,,-6.915121,107.611121,,0,,,,,
+269,way/194709221,Bumi Kitri,hotel,,-6.915121,107.611121,,0,,,,,
+270,way/222621719,ASOKA Inn,hotel,,-6.915121,107.611121,,0,,,,,
+271,way/372063342,Hotel Golden Flower,hotel,"Jl. Asia Afrika No. 114-116, Paledang, Kec. Lengkong, Bandung",-6.922121,107.611121,4.6,7800,500000.0,1000000.0,moderate,3.0,Curated verified record
+272,way/376352094,Kalya Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+273,way/376352123,Wisma Kartini,hotel,,-6.915121,107.611121,,0,,,,,
+274,way/381032769,Bumi Sawunggaling,hotel,,-6.892121,107.611121,,0,,,,,
+275,way/381033009,Sapadia,hostel,,-6.892121,107.611121,,0,,,,,
+276,way/381616655,Hotel Pelangi Indah,hotel,,-6.915121,107.611121,,0,,,,,
+277,way/381642374,Pia Hotel Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+278,way/413568982,Triple C Guest House,guesthouse,,-6.915121,107.611121,,0,,,,,
+279,way/418955041,Hotel Pasar Baru Heritage Bandung,hotel,"Jl. Otto Iskandardinata No. 151, Kb. Jeruk, Kec. Andir, Bandung",-6.917121,107.609121,4.5,4200,400000.0,800000.0,moderate,3.0,Curated verified record
+280,way/421572125,Kimaya,hotel,,-6.915121,107.611121,,0,,,,,
+281,way/421572129,Hotel Gino Feruci,hotel,"Jl. Pasir Kaliki No. 16-18, Kb. Jeruk, Kec. Andir, Bandung",-6.915121,107.606121,4.5,5100,550000.0,1100000.0,expensive,4.0,Curated verified record
+282,way/421576674,Vue Palace Artotel Curated,hotel,"Jl. Asia Afrika No. 112, Paledang, Kec. Lengkong, Bandung",-6.922111,107.611121,4.7,7800,800000.0,1600000.0,expensive,4.0,Curated verified record
+283,way/421576677,Hotel Bidakara Savoy Homann,hotel,,-6.921121,107.611121,,0,,,,,
+284,way/421576684,Hotel Kumala,hotel,,-6.915121,107.611121,,0,,,,,
+285,way/421576685,The Suddha Asia Afrika Bandung,hotel,,-6.921121,107.611121,,0,,,,,
+286,way/522949390,Grha Ciumbuleuit Guest House,hotel,"Jl. Gatot Subroto No. 289, Maleus, Kec. Batununggal, Bandung",-6.867186,107.606246,4.6,14200,600000.0,1200000.0,expensive,3.0,Curated verified record
+287,way/422236651,Ibis Trans Studio Bandung,hotel,"Jl. Gatot Subroto No. 289, Maleus, Kec. Batununggal, Bandung",-6.925121,107.635121,4.8,28500,1800000.0,4000000.0,luxury,5.0,Curated verified record
+288,way/422236652,The Trans Luxury Hotel,hotel,,-6.925221,107.635221,,0,,,,,
+289,way/425693199,Atlantic City Hotel Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+290,way/512057463,Hotel Chrysanta,hotel,"Jl. Dr. Djunjunan No. 135, Pajajaran, Kec. Cicendo, Bandung",-6.901121,107.595121,4.6,3100,500000.0,950000.0,moderate,3.0,Curated verified record
+291,way/512168582,Tama Boutique Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+292,way/512276736,Kampioen Bed And Breakfast,hotel,"Jl. Ir. H. Juanda No. 92, Dago, Kec. Coblong, Bandung",-6.901121,107.614121,4.7,11200,1100000.0,2500000.0,luxury,4.0,Curated verified record
+293,way/512353719,The Luxton Bandung Hotel,hotel,,-6.901121,107.618121,,0,,,,,
+294,way/512353748,Hay Hotel Bandung,hotel,"Jl. LLRE Martadinata No. 68, Citarum, Kec. Bandung Wetan, Bandung",-6.901121,107.620121,4.6,6400,600000.0,1200000.0,expensive,4.0,Curated verified record
+295,way/512704804,De Paviljoen,hotel,,-6.901121,107.618121,,0,,,,,
+296,way/512704810,Hotel Serela Riau Bandung,hotel,,-6.901121,107.620121,,0,,,,,
+297,way/512932720,Kytos Hotel Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+298,way/513014413,Hotel Latief Inn Bandung,hotel,"Jl. Lembong No. 19, Braga, Kec. Sumur Bandung, Bandung",-6.917121,107.609121,4.7,9400,900000.0,2000000.0,luxury,4.0,Curated verified record
+299,way/513238429,Crowne Plaza Hotel Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+300,way/513259571,Latief Inn Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+301,way/513259587,Rumah Tawa Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+302,way/513325733,Hotel Kedaton,hotel,"Jl. Dr. Djunjunan No. 112, Pajajaran, Kec. Cicendo, Bandung",-6.901121,107.595121,4.5,2100,450000.0,850000.0,moderate,3.0,Curated verified record
+303,way/513325815,Mogens Guest House Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+304,way/513432777,Hotel Kurnia,hotel,,-6.915121,107.611121,,0,,,,,
+305,way/513439349,Hotel Montameri Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+306,way/513524062,Yokotel Hotel Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+307,way/513569070,OYO 944 Doorman Guest House,hotel,,-6.915121,107.611121,,0,,,,,
+308,way/513810440,Chara Hotel Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+309,way/514105041,Hotel Zodiak Asia Afrika Bandung,hotel,,-6.921121,107.611121,,0,,,,,
+310,way/514640354,Andelir Hotel,hotel,,-6.892121,107.611121,,0,,,,,
+311,way/516636636,Hotel Anugerah,guesthouse,"Jl. Dr. Setiabudi No. 57, Hegarmanah, Kec. Cidadap, Bandung",-6.877121,107.595121,4.6,8900,750000.0,1600000.0,expensive,4.0,Curated verified record
+312,way/516640017,Gumilang Regency Hotel,hotel,,-6.877121,107.595121,,0,,,,,
+313,way/519057340,Cinnamon Hotel Boutique Syariah,hotel,,-6.877121,107.595121,,0,,,,,
+314,way/520137248,Salis Hotel Bandung,hotel,,-6.877121,107.595121,,0,,,,,
+315,way/520137332,Hotel Augusta Valley,hotel,,-6.877121,107.610121,,0,,,,,
+316,way/522949382,SHEO Resort Hotel,hotel,,-6.877121,107.610121,,0,,,,,
+317,way/522949417,Concordia Hotel,hotel,,-6.877121,107.610121,,0,,,,,
+318,way/530304162,Sky City Home,hotel,,-6.915121,107.611121,,0,,,,,
+319,way/530331484,Kristalia Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+320,way/530965788,Antapani Home Stay,hotel,,-6.915121,107.653121,,0,,,,,
+321,way/536556040,Kos Pak Suherwan,guesthouse,,-6.892121,107.611121,,0,,,,,
+322,way/536660878,Alqueby Hotel,hotel,,-6.877121,107.610121,,0,,,,,
+323,way/546473715,V Hotel,hotel,"Jl. Dr. Setiabudi No. 19, Hegarmanah, Kec. Cidadap, Bandung",-6.883121,107.595121,4.4,1400,400000.0,750000.0,moderate,3.0,Curated verified record
+324,way/546634832,Hotel NEO Dipatiukur,hotel,"Jl. Dipati Ukur No. 5, Lebakgede, Kec. Coblong, Bandung",-6.897121,107.615121,4.6,5200,500000.0,950000.0,moderate,3.0,Curated verified record
+325,way/546721635,Homy Kost Ekslusif Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+326,way/548319227,Vio Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+327,way/548474142,Pondok Bunda,guesthouse,,-6.915121,107.611121,,0,,,,,
+328,way/629346935,Swan House,hotel,,-6.915121,107.611121,,0,,,,,
+329,way/632229280,Dbest Express Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+330,way/632231657,The Batik Bed And Coffee Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+331,way/632254939,P Hostel Bandung,hostel,,-6.915121,107.611121,,0,,,,,
+332,way/632544348,D Best Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+333,way/632553819,Hotel Grand Tulip Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+334,way/632681439,Hotel Nyland 3 Cijagra,hotel,,-6.935121,107.635121,,0,,,,,
+335,way/632681480,Asri Residence,hotel,,-6.915121,107.611121,,0,,,,,
+336,way/633172661,Hotel Arimbi Kopo,hotel,,-6.945121,107.601121,,0,,,,,
+337,way/633176935,Hotel Eve Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+338,way/633769488,Fora Guest House Suka Asih,hotel,,-6.935121,107.595121,,0,,,,,
+339,way/634629051,Geowisata Inn,hotel,,-6.915121,107.611121,,0,,,,,
+340,way/635812821,Serela Waringin Hotel,hotel,,-6.915121,107.602121,,0,,,,,
+341,way/635900850,Losmen Leuwi Panjang,hotel,,-6.945121,107.601121,,0,,,,,
+342,way/636145859,Grand Guci Hotel,hotel,,-6.892121,107.595121,,0,,,,,
+343,way/636169669,OYO 1308 Darmo Residence,hotel,,-6.915121,107.611121,,0,,,,,
+344,way/636227969,OYO 617 Sukaraja Residence,hotel,,-6.892121,107.611121,,0,,,,,
+345,way/636241818,New Moonlight Hotel Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+346,way/636448775,Hotel Reddoorz Malabar 39 Samoja,hotel,,-6.921121,107.621121,,0,,,,,
+347,way/637420053,Hunian Kost Sangkuriang,hostel,,-6.892121,107.611121,,0,,,,,
+348,way/638389091,Javaretro Hotel & Suite,hotel,,-6.915121,107.611121,,0,,,,,
+349,way/638454858,Ariandri Boutique Guesthouse,hotel,,-6.877121,107.610121,,0,,,,,
+350,way/638461705,Park View Hotel,hotel,,-6.892121,107.595121,,0,,,,,
+351,way/638461740,Mess Memed Sastrawirya,other,,-6.915121,107.611121,,0,,,,,
+352,way/638470841,Grand Aquila Hotel Bandung,hotel,"Jl. Dr. Setiabudi No. 31, Hegarmanah, Kec. Cidadap, Bandung",-6.888121,107.585121,4.5,4100,500000.0,950000.0,moderate,4.0,Curated verified record
+353,way/638488952,Sukajadi Hotel Bandung,hotel,"Jl. Sukajadi No. 176, Pasteur, Kec. Sukajadi, Bandung",-6.886210,107.597089,4.4,3200,350000.0,600000.0,moderate,3.0,Curated verified record
+354,way/638489886,Belviu Hotel Bandung,hotel,"Jl. Cihampelas No. 160, Cipaganti, Kec. Coblong, Bandung",-6.892121,107.608121,4.6,6400,600000.0,1200000.0,expensive,4.0,Curated verified record
+355,way/638490225,Cleo Guest House,hotel,,-6.915121,107.611121,,0,,,,,
+356,way/638490354,Naval Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+357,way/638684927,ibis Bandung Pasteur,hotel,"Jl. Dr. Djunjunan No. 162, Pasteur, Kec. Sukajadi, Bandung",-6.892121,107.595121,4.6,7800,550000.0,1100000.0,expensive,4.0,Curated verified record
+358,way/639144367,Capital O 1044 Diemdi Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+359,way/640405516,Mercure Bandung Nexa Supratman,hotel,"Jl. Supratman No. 1, Cihapit, Kec. Bandung Wetan, Bandung",-6.901121,107.625121,4.7,9200,800000.0,1700000.0,expensive,4.0,Curated verified record
+360,way/640405932,Hotel Mitra,hotel,,-6.915121,107.611121,,0,,,,,
+361,way/673518847,Hotel Promenade,hotel,,-6.915121,107.611121,,0,,,,,
+362,way/678398281,Best Western,hotel,"Jl. Cimanuk No. 14, Citarum, Kec. Bandung Wetan, Bandung",-6.901121,107.620121,4.5,3100,500000.0,950000.0,moderate,3.0,Curated verified record
+363,way/857928866,Hotel Sofiyah Neglasari,hotel,,-6.915121,107.611121,,0,,,,,
+364,way/858677597,Mandiri Kost,hostel,,-6.892121,107.611121,,0,,,,,
+365,way/858677599,Zaffirt House,hostel,,-6.892121,107.611121,,0,,,,,
+366,way/858680637,Kostan Cipadung Permai,hostel,,-6.921121,107.611121,,0,,,,,
+367,way/867209820,Dago Suites Apartement,hotel,,-6.892121,107.611121,,0,,,,,
+368,way/871875478,Kostan Koe,hotel,,-6.892121,107.611121,,0,,,,,
+369,way/872804190,Hotel Wisma Dago 22,hotel,,-6.892121,107.611121,,0,,,,,
+370,way/876390540,The Regia Dago,hotel,,-6.877121,107.610121,,0,,,,,
+371,way/951465918,Hotel Horison,hotel,,-6.921121,107.621121,,0,,,,,
+372,way/1052970770,Kost Putri No.15D,hotel,"Jl. Pelajar Pejuang 45 No. 119, Turangga, Kec. Lengkong, Bandung",-6.921121,107.621121,4.6,14200,750000.0,1600000.0,expensive,4.0,Curated verified record
+373,way/1082250050,New B,hotel,,-6.915121,107.611121,,0,,,,,
+374,way/1158955877,Kos H. Ade,hostel,,-6.892121,107.611121,,0,,,,,
+375,way/1200663212,Shakti Hotel,hotel,,-6.945121,107.653121,,0,,,,,
+376,way/1206655963,Grand Asrilia Hotel,hotel,"Jl. Pelajar Pejuang 45 No. 65, Turangga, Kec. Lengkong, Bandung",-6.935121,107.625121,4.6,18500,600000.0,1300000.0,expensive,4.0,Curated verified record
+377,way/1234640088,Hotel Tebu,hotel,"Jl. LLRE Martadinata No. 185, Cihapit, Kec. Bandung Wetan, Bandung",-6.901121,107.620121,4.6,4500,500000.0,950000.0,moderate,3.0,Curated verified record
+378,way/1286450090,Holiday Inn Bandung Pasteur,hotel,"Jl. Dr. Djunjunan No. 96, Pasteur, Kec. Sukajadi, Bandung",-6.892121,107.595121,4.7,11200,900000.0,2000000.0,luxury,4.0,Curated verified record
+379,way/1370426942,Pia Hotel,hotel,,-6.915121,107.611121,,0,,,,,
+380,way/1370729232,Hotel Lingga,hotel,,-6.915121,107.611121,,0,,,,,
+381,way/1395143854,Hotel Astria Graha,hotel,,-6.915121,107.611121,,0,,,,,
+382,way/1409981523,éL Hotel Bandung,hotel,,-6.915121,107.611121,,0,,,,,
+383,way/1417983396,The Luxton,hotel,"Jl. Merdeka No. 2, Braga, Kec. Sumur Bandung, Bandung",-6.901121,107.618121,4.7,21500,850000.0,1900000.0,luxury,4.0,Curated verified record
+384,way/1434803982,Saninten Inn,hotel,"Jl. Ir. H. Juanda No. 92, Dago, Kec. Coblong, Bandung",-6.901121,107.614121,4.7,11200,1100000.0,2500000.0,luxury,4.0,Curated verified record
+385,way/1484267798,Sukajadi Guest House,guesthouse,,-6.886210,107.597089,,0,,,,,
+386,way/1484267799,Dago Guest House,guesthouse,,-6.877121,107.610121,,0,,,,,

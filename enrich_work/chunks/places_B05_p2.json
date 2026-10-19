@@ -1,0 +1,134 @@
+[
+ {
+  "id": 413,
+  "name": "Taman Emily Timur",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9642665,
+  "longitude": 107.7006022,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1434554492"
+ },
+ {
+  "id": 414,
+  "name": "Alun Alun Palem",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9665388,
+  "longitude": 107.6998853,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1434820033"
+ },
+ {
+  "id": 415,
+  "name": "Taman Derwati",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9644576,
+  "longitude": 107.678711,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1436136153"
+ },
+ {
+  "id": 416,
+  "name": "Taman Sub 07 Sektor 22 SCH",
+  "category": "other",
+  "address": null,
+  "latitude": -6.893769,
+  "longitude": 107.5875069,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1442741324"
+ },
+ {
+  "id": 417,
+  "name": "Playground Cynthia",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9615055,
+  "longitude": 107.6955998,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1443175089"
+ },
+ {
+  "id": 418,
+  "name": "Sawarga Courtyard",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9551659,
+  "longitude": 107.6978716,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1443187677"
+ },
+ {
+  "id": 419,
+  "name": "Taman Tulip",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9672239,
+  "longitude": 107.7023281,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1454960790"
+ },
+ {
+  "id": 420,
+  "name": "Taman Sehati RW.09",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9451534,
+  "longitude": 107.7115654,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1462081924"
+ },
+ {
+  "id": 421,
+  "name": "Taman Dirgantara",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9299064,
+  "longitude": 107.55126,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1467055121"
+ },
+ {
+  "id": 422,
+  "name": "Taman Braga",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9198965,
+  "longitude": 107.6101048,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1475160334"
+ },
+ {
+  "id": 423,
+  "name": "Plaza Timur",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9494343,
+  "longitude": 107.7056257,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1489896474"
+ },
+ {
+  "id": 424,
+  "name": "Taman Tematik Nabi Adam",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9497306,
+  "longitude": 107.7045455,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1489929123"
+ }
+]

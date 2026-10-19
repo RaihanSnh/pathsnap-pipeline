@@ -1,0 +1,134 @@
+[
+ {
+  "id": 425,
+  "name": "Taman Tematik Nabi Yunus",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9497666,
+  "longitude": 107.7028202,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1489929124"
+ },
+ {
+  "id": 426,
+  "name": "Taman Tematik Nabi Ibrahim",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9498761,
+  "longitude": 107.7036717,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1489929125"
+ },
+ {
+  "id": 427,
+  "name": "Taman Tematik Nabi Nuh",
+  "category": "other",
+  "address": null,
+  "latitude": -6.949337,
+  "longitude": 107.7017436,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1489929126"
+ },
+ {
+  "id": 428,
+  "name": "Taman Islam",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9485628,
+  "longitude": 107.7013507,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1489929127"
+ },
+ {
+  "id": 429,
+  "name": "Taman Tematik Nabi Isa",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9464769,
+  "longitude": 107.7016828,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1489929130"
+ },
+ {
+  "id": 430,
+  "name": "Lapangan Tenis Kawaluyaan Indah",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9344997,
+  "longitude": 107.6601597,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1491374784"
+ },
+ {
+  "id": 431,
+  "name": "Lapangan Sekolah",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9218622,
+  "longitude": 107.714973,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1502723323"
+ },
+ {
+  "id": 432,
+  "name": "JPL Jalan Braga",
+  "category": "culture",
+  "address": null,
+  "latitude": -6.915081,
+  "longitude": 107.6091304,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1511658239"
+ },
+ {
+  "id": 433,
+  "name": "Taman Pandawa",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9221177,
+  "longitude": 107.6576487,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1513067561"
+ },
+ {
+  "id": 434,
+  "name": "Alun Alun Griya Caraka",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9321721,
+  "longitude": 107.673489,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1515964637"
+ },
+ {
+  "id": 435,
+  "name": "Taman Al Uhkuwah",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9459176,
+  "longitude": 107.7104343,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1558985258"
+ },
+ {
+  "id": 436,
+  "name": "Taman Sumber Sari",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9329221,
+  "longitude": 107.5752375,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1559886641"
+ }
+]

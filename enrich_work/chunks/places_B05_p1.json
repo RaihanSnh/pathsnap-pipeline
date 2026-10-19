@@ -1,0 +1,134 @@
+[
+ {
+  "id": 401,
+  "name": "Water Tower Oranye",
+  "category": "other",
+  "address": null,
+  "latitude": -6.8754024,
+  "longitude": 107.60497,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1303199228"
+ },
+ {
+  "id": 402,
+  "name": "Tulip Park 1",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9666096,
+  "longitude": 107.7041586,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1317357915"
+ },
+ {
+  "id": 403,
+  "name": "Tulip Park 2",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9667914,
+  "longitude": 107.7014494,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1317358129"
+ },
+ {
+  "id": 404,
+  "name": "Pohon Hukum",
+  "category": "other",
+  "address": null,
+  "latitude": -6.874296,
+  "longitude": 107.6052122,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1349368391"
+ },
+ {
+  "id": 405,
+  "name": "Lapangan SD Sukaasih Atas",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9006743,
+  "longitude": 107.6856471,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1351095918"
+ },
+ {
+  "id": 406,
+  "name": "Panghegar Waterboom",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9617568,
+  "longitude": 107.6223174,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1370426961"
+ },
+ {
+  "id": 407,
+  "name": "Museum Sri Baduga",
+  "category": "culture",
+  "address": "Jalan Peta, 185, Kota Bandung",
+  "latitude": -6.9377464,
+  "longitude": 107.6035642,
+  "phone": "+62 22 5210976",
+  "website": null,
+  "osm_ref": "way/1370429558"
+ },
+ {
+  "id": 408,
+  "name": "Kawasan Jalan Braga",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9179393,
+  "longitude": 107.6093249,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1381663440"
+ },
+ {
+  "id": 409,
+  "name": "Banceuy Prison Museum",
+  "category": "culture",
+  "address": null,
+  "latitude": -6.9195986,
+  "longitude": 107.6069604,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1411443701"
+ },
+ {
+  "id": 410,
+  "name": "Museum Srihadi Soedarsono",
+  "category": "culture",
+  "address": null,
+  "latitude": -6.8717203,
+  "longitude": 107.6050527,
+  "phone": null,
+  "website": "https://www.museumsrihadisoedarsono.com/",
+  "osm_ref": "way/1431411339"
+ },
+ {
+  "id": 411,
+  "name": "Taman Emily Barat",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9629654,
+  "longitude": 107.6975246,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1434554474"
+ },
+ {
+  "id": 412,
+  "name": "Taman Emily Tengah",
+  "category": "other",
+  "address": null,
+  "latitude": -6.9634878,
+  "longitude": 107.6989535,
+  "phone": null,
+  "website": null,
+  "osm_ref": "way/1434554482"
+ }
+]
