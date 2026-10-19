@@ -1,4 +1,5 @@
 """Small database helpers shared by all steps."""
+
 import psycopg2
 import psycopg2.extras
 from config import DATABASE_URL
